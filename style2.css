@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+* {
+     box-sizing: border-box;
+}
+
+body {
+     background: #020833;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     min-height: 100vh;
+     margin: 0;
+     font-family: 'Open Sans', sans-serif;
+ }
+
+.form_inner{
+     width: 400px;
+     background: #fff;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+     max-width: 100%;
+
+ }
+
+
+.form-control input {
+     width: 100%;
+     padding: 10px 10px;
+     border: 2px solid #f0f0f0;
+     margin-bottom: 8px;
+     border-radius:5px;
+}
+
+.form-control input:focus {
+     outline: 0;
+	border-color: #777;
+}
+
+form {
+     padding: 30px 40px;
+ }
+ 
+.form-control label {
+     margin-bottom: 9px;
+     display: block;
+     width: 100%;
+     font-weight: 500;
+ }
+ 
+.form-control small {
+     width: 100%;
+     margin-bottom: 10px;
+     display: block;
+     color: #e74c3c;
+     font-weight: 600;
+}
+.form-control.success input{
+     border-color: #2ecc71;
+}
+.form-control.success i.fas.fa-check-circle{
+    visibility: visible;
+    color:#2ecc71;
+}
+.form-control.error i.fas.fa-exclamation-circle{
+    visibility: visible;
+    color:#e74c3c;
+}
+small.noneClissi {
+     visibility: hidden;
+ }
+.form-control.error input {
+	border-color: #e74c3c;
+}
+ 
+.form-control {
+     position: relative;
+ }
+ 
+.form-control i{
+     position: absolute;
+     right: 10px;
+     top: 43px;
+     visibility: hidden;
+}
+.header {
+     border-bottom: 2px solid #ff00004d;
+     margin: 0px 39px;
+}
+
+.header h2 {
+     font-size: 21px;
+     font-weight: 600;
+}
+
+button.btnbutton {
+     width: 100%;
+     background: #aa370c;
+     color: #fff;
+     font-size: 17px;
+     font-weight: 700;
+     padding: 14px 0px;
+     border: none;
+     margin-top: 20px;
+     outline: none;
+     cursor: pointer;
+     border-radius: 5px;
+ }
+
+ .form-info {
+     background: #fff;
+     position: absolute;
+     width: 289px;
+     top: 55%;
+     left: 105%;
+     border-radius: 8px;
+     padding: 16px;
+ }
+ 
+.hide {
+     display: none;
+}
+
+.form-info i.fas {
+     margin-right: 7px;
+ }
+
+.container {
+     position: relative;
+}
+
+.valid {
+     color: green;
+}
+.invalid {
+     color: red;
+}
+
+ .form-info ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .form-info ul li {
+     padding: 7px 17px;
+ }
+
+.form-info:after {
+     position: absolute;
+     content: "";
+     top: 7px;
+     left: -8px;
+     width: 20px;
+     height: 20px;
+     background-color: #fff;
+     transform: rotate(45deg);
+
+}

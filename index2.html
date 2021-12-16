@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Form Validation</title>
+     <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+     
+
+
+     <div class="container">
+         <div class="header">
+               <h2>Create Account</h2>
+         </div>
+         <div class="form_inner">
+
+          <form>
+               <div class="form-control">
+                    <label>User Name</label>
+                    <input type="text" id="username" placeholder="Hannan232">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small></small>
+               </div>
+               <div class="form-control">
+                    <label>Email</label>
+                    <input type="text" id="email" placeholder="Hannan232@gmail.com">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small></small>
+               </div>
+               <div class="form-control">
+                    <label>Password</label>
+                    <input type="text" id="password" placeholder="Password">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small></small>
+               </div>
+               <div class="form-control">
+                    <label>User Name</label>
+                    <input type="password" id="confirm_password" placeholder="Confirm Password">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small></small>
+               </div>
+               <button type="submit" class="btnbutton">Create Account</button>
+          </form>
+         </div> 
+
+          <div class="form-info" id="form-info-id">
+               <ul>
+                    <li id="letter" class="invalid"><i class="fas fa-times"></i> At least <strong>one small letter</strong></li>
+                    <li id="capital" class="invalid"><i class="fas fa-times"></i> At least <strong>one capital letter</strong></li>
+                    <li id="number" class="invalid"><i class="fas fa-times"></i> At least <strong>one number</strong></li>
+                    <li id="characters" class="invalid"><i class="fas fa-times"></i> At least <strong>8 characters</strong></li>
+               </ul>
+          </div>
+     </div>
+
+
+
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+     <script src="formValidation.js"></script>
+
+</body>
+</html>
